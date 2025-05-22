@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BinaryObjectFormat">
+      <HintPath>D:\Libraries\.NET Core\BinaryObjectFormat\v1.1.0\dlls\64BitRel\BinaryObjectFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonUtilities">
+      <HintPath>D:\Libraries\.NET Core\CommonUtilities\v1.0.0\dlls\64BitRel\CommonUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="FastBinaryIO">
+      <HintPath>D:\Libraries\.NET Core\FastBinaryIO\v1.0.0\dlls\64BitRel\FastBinaryIO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
